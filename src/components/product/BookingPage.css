@@ -1,0 +1,58 @@
+/* Basic container for the booking page */
+.booking-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Debugging: Ensure form visibility */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.booking-form input,
+.booking-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.booking-form .error-text {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Style for booking items */
+.booking-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.booking-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.checkout-btn {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #5a54e2;
+}

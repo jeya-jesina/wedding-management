@@ -1,0 +1,115 @@
+/* Container Styling */
+.photo-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .photo-item {
+    position: relative;
+    margin: 10px;
+    width: 300px; /* Set a fixed width for each item */
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align image and text */
+  }
+  
+  .photo-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .image-container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  .add-to-cart-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .image-container:hover .add-to-cart-btn {
+    opacity: 1;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #ff3e29;
+  }
+  
+  /* Dress Details Styling */
+  .photo-details {
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .photo-details h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .photo-details p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .photo-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  /* Cart Styling */
+  .cart {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .cart-item img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,134 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo styling */
+  .logo h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #7b61ff;
+  }
+  
+  /* Buttons styling */
+  .header-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn-login,
+  .btn-signup {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-login {
+    color: #7b61ff;
+    border: 1px solid #7b61ff;
+  }
+  
+  .btn-login:hover {
+    background-color: #7b61ff;
+    color: white;
+  }
+  
+  .btn-signup {
+    background-color: #7b61ff;
+    color: white;
+  }
+  
+  .btn-signup:hover {
+    background-color: #5e48c4;
+  }
+  
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+      padding-top: 5px;
+    }
+  
+    .nav-links.active {
+      display: flex; /* Show the menu when toggled */
+    }
+  
+    .nav-link {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .header-buttons {
+      display: none; /* Hide the login and signup buttons on small screens */
+    }
+  
+    /* Hamburger button for mobile */
+    .navbar-toggle {
+      display: block;
+      background: none;
+      border: none;
+      font-size: 30px;
+      color: #4a4a4a;
+      cursor: pointer;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .navbar-toggle {
+      display: none; /* Hide the toggle button on larger screens */
+    }
+   
+  }
+  

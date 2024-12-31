@@ -1,0 +1,168 @@
+/* General Page Styling */
+.services-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4; /* Light background color for the entire service page */
+  }
+  
+  /* Breadcrumb Section */
+  .breadcrumb-section {
+    background-color: #2d2d6b; /* Dark blue background for breadcrumb */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .breadcrumb-section h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .breadcrumb-section p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+  }
+  
+  .breadcrumb-section a {
+    color: #ff4081; /* Pink color for the link */
+    text-decoration: none;
+  }
+  
+  .breadcrumb-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Services Content */
+  .services-content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff; /* White background for the services content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -50px; /* Adjusting to create a floating effect */
+  }
+  
+  .services-content h2 {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    color: #ff4081; /* Pink color for section header */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .services-content h3 {
+    font-size: 2rem;
+    color: #2d2d6b; /* Dark blue color for sub-heading */
+    margin: 20px 0;
+  }
+  
+  .services-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 auto 40px;
+    max-width: 800px;
+    color: #555; /* Lighter text color for paragraphs */
+  }
+  
+  /* Service Cards */
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual Card Styling */
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #ff4081; /* Pink background on hover */
+    border-color: #ff4081; /* Matching border color on hover */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Additional styling for cards */
+  .card.bg-light {
+    background-color: #f7f7f7; /* Light background for card */
+  }
+  
+  .card.bg-light:hover {
+    background-color: #ff4081;
+    border-color: #ff4081;
+  }
+  
+  .card.bg-dark {
+    background-color: #333; /* Dark background for card */
+    color: white;
+  }
+  
+  .card.bg-dark:hover {
+    background-color: #ff4081;
+    border-color: #ff4081;
+    color: #333;
+  }
+  
+  .card.border-blue {
+    border: 2px solid #2d2d6b; /* Blue border for a different card style */
+  }
+  
+  .card.border-blue:hover {
+    border-color: #ff4081;
+  }
+  
+  .card.border-green {
+    border: 2px solid #4caf50; /* Green border for another variant */
+  }
+  
+  .card.border-green:hover {
+    border-color: #ff4081;
+  }
+  
+  /* Card with Gradient Background */
+  .card.bg-gradient {
+    background: linear-gradient(135deg, #ff4081, #2d2d6b); /* Gradient background */
+    color: white;
+  }
+  
+  .card.bg-gradient:hover {
+    background: linear-gradient(135deg, #2d2d6b, #ff4081); /* Reverse gradient on hover */
+  }
+  

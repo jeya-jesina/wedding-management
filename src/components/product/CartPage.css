@@ -1,0 +1,54 @@
+.cart-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cart-details {
+  text-align: left;
+}
+
+.cart-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.continue-booking-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6a5acd;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-booking-btn:hover {
+  background-color: #483d8b;
+}
